@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Select Loan</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Select Your Loan Amount</h2>
+
+<div class="loan-grid">
+
+<div class="loan">
+<h3>Ksh 5,500</h3>
+<p>Fee: Ksh 100</p>
+</div>
+
+<div class="loan">
+<h3>Ksh 6,800</h3>
+<p>Fee: Ksh 130</p>
+</div>
+
+<div class="loan">
+<h3>Ksh 7,800</h3>
+<p>Fee: Ksh 170</p>
+</div>
+
+<div class="loan">
+<h3>Ksh 9,800</h3>
+<p>Fee: Ksh 190</p>
+</div>
+
+<div class="loan">
+<h3>Ksh 11,200</h3>
+<p>Fee: Ksh 230</p>
+</div>
+
+<div class="loan">
+<h3>Ksh 16,800</h3>
+<p>Fee: Ksh 250</p>
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+document.querySelectorAll(".loan").forEach(item => {
+item.addEventListener("click", () => {
+
+alert("M-Pesa payment prompt will be sent");
+
+});
+});
+
+</script>
+
+</body>
+</html>

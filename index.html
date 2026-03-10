@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fast Pesa</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2 class="logo">💰 Fast Pesa</h2>
+
+<h3>Check Your Loan Eligibility</h3>
+
+<p class="range">Ksh 1,000 – 50,000</p>
+
+<form id="loanForm">
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter full name" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Phone Number</label>
+<input type="text" placeholder="07XXXXXXXX" required>
+
+<label>ID Number</label>
+<input type="text" placeholder="Enter ID number" required>
+
+<label>Loan Type</label>
+<select>
+<option>Business Loan</option>
+<option>Personal Loan</option>
+<option>Emergency Loan</option>
+</select>
+
+<button type="submit">Check Eligibility →</button>
+
+</form>
+
+</div>
+
+<script>
+
+document.getElementById("loanForm").addEventListener("submit", function(e){
+e.preventDefault();
+window.location.href="loans.html";
+});
+
+</script>
+
+</body>
+</html>
