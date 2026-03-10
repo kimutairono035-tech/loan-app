@@ -1,2 +1,14 @@
-# loan-app
-This is a loan app where user regiter and can access loans
+# loan app
+# Loan Management System
+
+Spring Boot backend for managing loans.
+
+## Technologies
+- Java
+- Spring Boot
+- MySQL
+
+## Features
+- User authentication
+- Loan application
+- Payment tracking
